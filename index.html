@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0a0a0f">
 <meta name="description" content="Abel Aby C — Head of Design & Program Management. Connecting design, engineering and business to build meaningful digital products.">
 <title>Abel Aby C — Design × Delivery</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%230a0a0f'/%3E%3Ctext x='19' y='30' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='30' fill='%23c8f560'%3EC%3C/text%3E%3Ccircle cx='31' cy='28' r='2.6' fill='%23c8f560'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%230a0a0f'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-family='Segoe UI,Arial,sans-serif' font-weight='700' font-size='22' letter-spacing='-1' fill='%23c8f560'%3E.c%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
@@ -36,11 +36,10 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opa
 .topbar.scrolled{background:rgba(10,10,15,.78);backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%);border-bottom-color:var(--line)}
 .topbar nav a.active{color:var(--lime)}
 .nav{height:76px;display:flex;align-items:center;justify-content:space-between}
-.brand{display:inline-flex;align-items:baseline;font-size:26px;font-weight:700;letter-spacing:-.055em;line-height:1}
-.brand .c{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:0;font-size:1.3em;color:var(--lime);margin-left:.14em;display:inline-block;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
-.brand .dot{width:.24em;height:.24em;border-radius:50%;background:var(--lime);margin-left:.06em;display:inline-block;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
-.brand:hover .c{transform:rotate(-10deg) translateY(-2px)}
-.brand:hover .dot{transform:scale(1.5)}
+.brand{display:inline-flex;align-items:baseline;font-size:25px;font-weight:500;letter-spacing:-.05em;line-height:1}
+.brand b{font-weight:700}
+.brand .ext{color:var(--lime);font-weight:700;transition:letter-spacing .4s}
+.brand:hover .ext{letter-spacing:.08em}
 .topbar nav{display:flex;gap:28px;font-size:13px}
 .topbar nav a{position:relative}
 .topbar nav a:after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .35s}
@@ -250,7 +249,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <header class="topbar">
   <div class="wrap nav">
-    <a class="brand" href="#home" aria-label="Abel Aby C, back to top">Abel Aby<span class="c">C</span><span class="dot"></span></a>
+    <a class="brand" href="#home" aria-label="Abel Aby C, back to top"><b>abel</b>aby<span class="ext">.c</span></a>
     <nav><a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#work">Work</a><a href="#journey">Journey</a><a href="#clients">Clients</a><a href="#recognition">Recognition</a></nav>
     <a class="talk" href="#contact">Let's talk ↗</a>
   </div>
